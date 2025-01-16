@@ -1,19 +1,10 @@
-import {
-  ChevronDown,
-  ChevronLeft,
-  ChevronRight,
-  ChevronUp,
-} from "@tamagui/lucide-icons";
-import { useState } from "react";
 import type { PopoverProps } from "tamagui";
 import {
   Adapt,
   Button,
   Input,
-  isWeb,
   Label,
   Popover,
-  ProvideAdaptContext,
   useAdaptContext,
   XStack,
   YStack,
